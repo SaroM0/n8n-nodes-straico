@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
 		"strict": true,
+		"rootDir": ".",
 		"module": "commonjs",
 		"moduleResolution": "node",
 		"target": "es2019",
@@ -19,12 +20,7 @@
 		"declaration": true,
 		"sourceMap": true,
 		"skipLibCheck": true,
-		"outDir": "./dist/",
+		"outDir": "./dist/"
 	},
-	"include": [
-		"credentials/**/*",
-		"nodes/**/*",
-		"nodes/**/*.json",
-		"package.json",
-	],
+	"include": ["index.ts", "credentials/**/*", "nodes/**/*", "nodes/**/*.json", "package.json"]
 }
