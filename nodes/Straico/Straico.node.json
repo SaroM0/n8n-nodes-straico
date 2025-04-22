@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-base.straico",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["AI", "Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.straico.com"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.straico.com"
+			}
+		]
+	}
+}
